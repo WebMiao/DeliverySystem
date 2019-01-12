@@ -1,0 +1,81 @@
+/*||||||||||||||||||||||||||||||||| GENERAL ||||||||||||||||||||||||||||||*/
+
+body {background:url(../image/bg.png); margin:0px; padding:0px; font-family:hansen; font-size:20px;}
+.container {width:1100px; margin:auto;}
+*{margin:0px; padding:0px;}
+.fixedheader {
+    position: fixed;
+    top:0; left:0; right:0px; z-index:2000;
+    width: 100%;}
+
+.clearfix{clear:both;}
+
+
+iframe {width:100%; height:100%; border:0px; margin:0px; padding:0px; }
+
+
+
+
+/*||||||||||||||||||||||||||||||||| HEADER ||||||||||||||||||||||||||||||*/
+
+
+.headerwrapper{background:white; overflow:hidden; /*box-shadow: 0px 1px 3px 1px  rgba(50, 50, 50, 0.35);*/
+ height:105px; margin:0px; padding:0px; border-bottom:1px solid  rgba(0,0,0,0.20); margin-bottom:50px;
+ /*position:fixed; left:0px; top:0px; right:0px; z-index:2000;*/ }
+#header{  overflow:hidden;   }
+.headerwrapper .logo {float:left; line-height:130px; margin-top:15px; }
+.headerwrapper nav ul{font-family:Arial; float:right; font-size:16px; font-weight:bold; margin-top:15px; }
+/*.headerwrapper nav  li{list-style:none; float:left; margin:20px; padding:15px; }
+.headerwrapper nav  li a {text-decoration:none; color:#313131; }
+*/
+.headerwrapper nav ul li {list-style:none; float:left; margin:20px; padding:15px;}
+.headerwrapper nav ul li a{text-decoration:none; color:#313131;}
+.headerwrapper nav ul li:hover{background:#ff5a0b; border-radius:5px; color:#FFF; transition:all 0.5s;
+animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
+.headerwrapper nav ul li:hover a{color:white;}
+
+
+/*.headerwrapper nav li a :hover{background:#ff5a0b; border-radius:5px; color:white; transition:all 0.5s ;
+ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}*/
+.active{background:#ff5a0b; border-radius:5px; color:white; }
+
+
+
+
+/*||||||||||||||||||||||||||||||||| RESTAURANT ||||||||||||||||||||||||||||||*/
+ 
+.restaurantwrapper{margin-top:50px; text-align:center;}
+.restaurantwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
+
+.restaurantwrapper  h3::before{content:url(../image/rectangle.png); position:relative; margin-right:15px;
+  top:-10px;}
+.restaurantwrapper  h3::after{content:url(../image/rectangle.png); position:relative;  margin-left:15px; 
+ top:-10px;}
+.restaurantwrapper h5{color:#cf0f1e; font-family:Economica-Bold; font-size:20px; margin-bottom:10px; margin-left:10px;}
+.restaurant{ position:absolute;margin:auto}
+
+.myimage{border:3px solid #ff5a0b; border-radius:5px; margin:0px 3px 0px 3px; position:relative;
+cursor:pointer;overflow:hidden}
+
+/************************ FOOTER *****************************/
+.footerwrapper{height:410px; background:#252b33; margin-top:30px; border-top:4px solid #a8aaad;float:center}
+footer{text-align:center; }
+footer h2{font-family:OSWALD-regular; font-size:20px; color:#dedede;}
+
+footer h2{margin-bottom:10px;margin-top:40px}
+
+.customerreview{width:366px; margin-top:40px; }
+.review{margin-top:5px; text-align:center;}
+.review p{color:#a3c9e7; font-size:15px; font-family:hansen; }
+.customerreview h2{text-align:center;}
+
+.review h4{color:#3d6e96; font-size:27px; font-family:oswald-regular; float:center; margin-left:14px; margin-top:7px; margin-bottom:7px;}
+
+
+/**** socialize*****/
+
+.socialize{width:366px;  margin-top:30px;}
+.socialimgs{margin-top:5px; width:170px; float:left; margin-left:100px;  }
+
+.socialimgs img {}
+.socialize h2{margin-left:100px;}
