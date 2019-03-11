@@ -1,10 +1,10 @@
-### DeliverySystem
-++++
+## DeliverySystem
++++
 user front-end (html + css + js) 
 + back-end (java) 
 + MySQL
 
-Highlight in our project:
+## Highlight in our project:
 1. handwriten MVC
 2. privide both buyer-end & seller-end
 3. Implement basic but complete business processes
