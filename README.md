@@ -10,14 +10,14 @@ Highlight in our project:
 3. Implement basic but complete business processes
 
 ## How about the final file structure?
-![avatar](WebContent/image/files.png)
+![avatar](WebContent/image/files.PNG)
 
 ## Our Design process & web structure.
-![avatar](WebContent/image/struct-v2.png)
+![avatar](WebContent/image/struct-v2.PNG)
 ![avatar](WebContent/image/DesignStructure.jpg)
 
 ## How about the main functions?
-![avatar](WebContent/image/functions.png)
+![avatar](WebContent/image/functions.PNG)
 
 ## Our WebPage Preview! Have a look!
 ![avatar](WebContent/image/t1.png)
