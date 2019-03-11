@@ -8,14 +8,13 @@ Highlight in our project:
 1. handwriten MVC
 2. privide both buyer-end & seller-end
 3. Implement basic but complete business processes
-![avatar](WebContent/image/struct-v2.png)
+
 ## How about the final file structure?
 ![avatar](WebContent/image/files.png)
 
 ## Our Design process & web structure.
+![avatar](WebContent/image/struct-v2.png)
 ![avatar](WebContent/image/DesignStructure.jpg)
-
-
 
 ## How about the main functions?
 ![avatar](WebContent/image/functions.png)
